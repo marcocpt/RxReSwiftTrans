@@ -13,6 +13,17 @@
 		DAC206961F9DE72F00992ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC206951F9DE72F00992ECF /* Assets.xcassets */; };
 		DAC206991F9DE72F00992ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC206971F9DE72F00992ECF /* LaunchScreen.storyboard */; };
 		DAC206A41F9DE72F00992ECF /* RxReSwiftTransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206A31F9DE72F00992ECF /* RxReSwiftTransTests.swift */; };
+		DAC206BE1F9DEB1100992ECF /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206BD1F9DEB0B00992ECF /* Coding.swift */; };
+		DAC206BF1F9DEB1900992ECF /* ObservableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206BC1F9DEB0100992ECF /* ObservableProperty.swift */; };
+		DAC206C01F9DEB1900992ECF /* ObservablePropertySubscriptionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206BB1F9DEB0100992ECF /* ObservablePropertySubscriptionReference.swift */; };
+		DAC206C11F9DEB1900992ECF /* ObservablePropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B71F9DEB0000992ECF /* ObservablePropertyType.swift */; };
+		DAC206C21F9DEB1900992ECF /* StreamType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B91F9DEB0100992ECF /* StreamType.swift */; };
+		DAC206C31F9DEB1900992ECF /* SubscriptionReferenceBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206BA1F9DEB0100992ECF /* SubscriptionReferenceBag.swift */; };
+		DAC206C41F9DEB1900992ECF /* SubscriptionReferenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B81F9DEB0000992ECF /* SubscriptionReferenceType.swift */; };
+		DAC206C51F9DEB1D00992ECF /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B21F9DEA9800992ECF /* Action.swift */; };
+		DAC206C61F9DEB1D00992ECF /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B31F9DEA9800992ECF /* Middleware.swift */; };
+		DAC206C71F9DEB1D00992ECF /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B01F9DEA9700992ECF /* Reducer.swift */; };
+		DAC206C81F9DEB1D00992ECF /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B11F9DEA9700992ECF /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		DAC2069F1F9DE72F00992ECF /* RxReSwiftTransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxReSwiftTransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC206A31F9DE72F00992ECF /* RxReSwiftTransTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxReSwiftTransTests.swift; sourceTree = "<group>"; };
 		DAC206A51F9DE72F00992ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC206B01F9DEA9700992ECF /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		DAC206B11F9DEA9700992ECF /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		DAC206B21F9DEA9800992ECF /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		DAC206B31F9DEA9800992ECF /* Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
+		DAC206B71F9DEB0000992ECF /* ObservablePropertyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservablePropertyType.swift; sourceTree = "<group>"; };
+		DAC206B81F9DEB0000992ECF /* SubscriptionReferenceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionReferenceType.swift; sourceTree = "<group>"; };
+		DAC206B91F9DEB0100992ECF /* StreamType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamType.swift; sourceTree = "<group>"; };
+		DAC206BA1F9DEB0100992ECF /* SubscriptionReferenceBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionReferenceBag.swift; sourceTree = "<group>"; };
+		DAC206BB1F9DEB0100992ECF /* ObservablePropertySubscriptionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservablePropertySubscriptionReference.swift; sourceTree = "<group>"; };
+		DAC206BC1F9DEB0100992ECF /* ObservableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableProperty.swift; sourceTree = "<group>"; };
+		DAC206BD1F9DEB0B00992ECF /* Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,7 @@
 		DAC2068D1F9DE72F00992ECF /* RxReSwiftTrans */ = {
 			isa = PBXGroup;
 			children = (
+				DAC206AE1F9DEA6000992ECF /* ReactiveReSwift */,
 				DAC2068E1F9DE72F00992ECF /* AppDelegate.swift */,
 				DAC206901F9DE72F00992ECF /* ViewController.swift */,
 				DAC206921F9DE72F00992ECF /* Main.storyboard */,
@@ -94,6 +117,48 @@
 				DAC206A51F9DE72F00992ECF /* Info.plist */,
 			);
 			path = RxReSwiftTransTests;
+			sourceTree = "<group>";
+		};
+		DAC206AE1F9DEA6000992ECF /* ReactiveReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DAC206AF1F9DEA8400992ECF /* CoreTypes */,
+				DAC206B41F9DEAAE00992ECF /* Reactive */,
+				DAC206B61F9DEAE300992ECF /* Utils */,
+			);
+			path = ReactiveReSwift;
+			sourceTree = "<group>";
+		};
+		DAC206AF1F9DEA8400992ECF /* CoreTypes */ = {
+			isa = PBXGroup;
+			children = (
+				DAC206B21F9DEA9800992ECF /* Action.swift */,
+				DAC206B31F9DEA9800992ECF /* Middleware.swift */,
+				DAC206B01F9DEA9700992ECF /* Reducer.swift */,
+				DAC206B11F9DEA9700992ECF /* Store.swift */,
+			);
+			path = CoreTypes;
+			sourceTree = "<group>";
+		};
+		DAC206B41F9DEAAE00992ECF /* Reactive */ = {
+			isa = PBXGroup;
+			children = (
+				DAC206BC1F9DEB0100992ECF /* ObservableProperty.swift */,
+				DAC206BB1F9DEB0100992ECF /* ObservablePropertySubscriptionReference.swift */,
+				DAC206B71F9DEB0000992ECF /* ObservablePropertyType.swift */,
+				DAC206B91F9DEB0100992ECF /* StreamType.swift */,
+				DAC206BA1F9DEB0100992ECF /* SubscriptionReferenceBag.swift */,
+				DAC206B81F9DEB0000992ECF /* SubscriptionReferenceType.swift */,
+			);
+			path = Reactive;
+			sourceTree = "<group>";
+		};
+		DAC206B61F9DEAE300992ECF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAC206BD1F9DEB0B00992ECF /* Coding.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +264,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC206BE1F9DEB1100992ECF /* Coding.swift in Sources */,
+				DAC206BF1F9DEB1900992ECF /* ObservableProperty.swift in Sources */,
+				DAC206C71F9DEB1D00992ECF /* Reducer.swift in Sources */,
+				DAC206C61F9DEB1D00992ECF /* Middleware.swift in Sources */,
 				DAC206911F9DE72F00992ECF /* ViewController.swift in Sources */,
+				DAC206C51F9DEB1D00992ECF /* Action.swift in Sources */,
+				DAC206C21F9DEB1900992ECF /* StreamType.swift in Sources */,
+				DAC206C81F9DEB1D00992ECF /* Store.swift in Sources */,
+				DAC206C41F9DEB1900992ECF /* SubscriptionReferenceType.swift in Sources */,
 				DAC2068F1F9DE72F00992ECF /* AppDelegate.swift in Sources */,
+				DAC206C01F9DEB1900992ECF /* ObservablePropertySubscriptionReference.swift in Sources */,
+				DAC206C11F9DEB1900992ECF /* ObservablePropertyType.swift in Sources */,
+				DAC206C31F9DEB1900992ECF /* SubscriptionReferenceBag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
