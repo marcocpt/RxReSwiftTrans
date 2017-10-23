@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DA05234B094E523E7B813B2 /* Pods_RxReSwiftTrans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5E249AEC2D0858A72F66FA /* Pods_RxReSwiftTrans.framework */; };
+		85FE47401F9E9A7900D373D3 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FE473F1F9E9A7900D373D3 /* State.swift */; };
 		DAC2068F1F9DE72F00992ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2068E1F9DE72F00992ECF /* AppDelegate.swift */; };
 		DAC206911F9DE72F00992ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206901F9DE72F00992ECF /* ViewController.swift */; };
 		DAC206941F9DE72F00992ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC206921F9DE72F00992ECF /* Main.storyboard */; };
@@ -14,12 +16,6 @@
 		DAC206991F9DE72F00992ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC206971F9DE72F00992ECF /* LaunchScreen.storyboard */; };
 		DAC206A41F9DE72F00992ECF /* RxReSwiftTransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206A31F9DE72F00992ECF /* RxReSwiftTransTests.swift */; };
 		DAC206BE1F9DEB1100992ECF /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206BD1F9DEB0B00992ECF /* Coding.swift */; };
-		DAC206BF1F9DEB1900992ECF /* ObservableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206BC1F9DEB0100992ECF /* ObservableProperty.swift */; };
-		DAC206C01F9DEB1900992ECF /* ObservablePropertySubscriptionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206BB1F9DEB0100992ECF /* ObservablePropertySubscriptionReference.swift */; };
-		DAC206C11F9DEB1900992ECF /* ObservablePropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B71F9DEB0000992ECF /* ObservablePropertyType.swift */; };
-		DAC206C21F9DEB1900992ECF /* StreamType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B91F9DEB0100992ECF /* StreamType.swift */; };
-		DAC206C31F9DEB1900992ECF /* SubscriptionReferenceBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206BA1F9DEB0100992ECF /* SubscriptionReferenceBag.swift */; };
-		DAC206C41F9DEB1900992ECF /* SubscriptionReferenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B81F9DEB0000992ECF /* SubscriptionReferenceType.swift */; };
 		DAC206C51F9DEB1D00992ECF /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B21F9DEA9800992ECF /* Action.swift */; };
 		DAC206C61F9DEB1D00992ECF /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B31F9DEA9800992ECF /* Middleware.swift */; };
 		DAC206C71F9DEB1D00992ECF /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206B01F9DEA9700992ECF /* Reducer.swift */; };
@@ -37,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4DCD9E852FF5AA05EC9193 /* Pods-RxReSwiftTrans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxReSwiftTrans.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxReSwiftTrans/Pods-RxReSwiftTrans.debug.xcconfig"; sourceTree = "<group>"; };
+		85FE473F1F9E9A7900D373D3 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		AC5E249AEC2D0858A72F66FA /* Pods_RxReSwiftTrans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxReSwiftTrans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC2068B1F9DE72F00992ECF /* RxReSwiftTrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxReSwiftTrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC2068E1F9DE72F00992ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC206901F9DE72F00992ECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,13 +50,8 @@
 		DAC206B11F9DEA9700992ECF /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		DAC206B21F9DEA9800992ECF /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		DAC206B31F9DEA9800992ECF /* Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
-		DAC206B71F9DEB0000992ECF /* ObservablePropertyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservablePropertyType.swift; sourceTree = "<group>"; };
-		DAC206B81F9DEB0000992ECF /* SubscriptionReferenceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionReferenceType.swift; sourceTree = "<group>"; };
-		DAC206B91F9DEB0100992ECF /* StreamType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamType.swift; sourceTree = "<group>"; };
-		DAC206BA1F9DEB0100992ECF /* SubscriptionReferenceBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionReferenceBag.swift; sourceTree = "<group>"; };
-		DAC206BB1F9DEB0100992ECF /* ObservablePropertySubscriptionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservablePropertySubscriptionReference.swift; sourceTree = "<group>"; };
-		DAC206BC1F9DEB0100992ECF /* ObservableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableProperty.swift; sourceTree = "<group>"; };
 		DAC206BD1F9DEB0B00992ECF /* Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
+		E2BE26E8EA9273239986B969 /* Pods-RxReSwiftTrans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxReSwiftTrans.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxReSwiftTrans/Pods-RxReSwiftTrans.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA05234B094E523E7B813B2 /* Pods_RxReSwiftTrans.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B717B882E8B4413929D0F5DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A4DCD9E852FF5AA05EC9193 /* Pods-RxReSwiftTrans.debug.xcconfig */,
+				E2BE26E8EA9273239986B969 /* Pods-RxReSwiftTrans.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DAC206821F9DE72F00992ECF = {
 			isa = PBXGroup;
 			children = (
 				DAC2068D1F9DE72F00992ECF /* RxReSwiftTrans */,
 				DAC206A21F9DE72F00992ECF /* RxReSwiftTransTests */,
 				DAC2068C1F9DE72F00992ECF /* Products */,
+				B717B882E8B4413929D0F5DD /* Pods */,
+				F0FEC1EEFB10E2C1EAFE639F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				DAC206AF1F9DEA8400992ECF /* CoreTypes */,
-				DAC206B41F9DEAAE00992ECF /* Reactive */,
 				DAC206B61F9DEAE300992ECF /* Utils */,
 			);
 			path = ReactiveReSwift;
@@ -135,22 +140,10 @@
 				DAC206B21F9DEA9800992ECF /* Action.swift */,
 				DAC206B31F9DEA9800992ECF /* Middleware.swift */,
 				DAC206B01F9DEA9700992ECF /* Reducer.swift */,
+				85FE473F1F9E9A7900D373D3 /* State.swift */,
 				DAC206B11F9DEA9700992ECF /* Store.swift */,
 			);
 			path = CoreTypes;
-			sourceTree = "<group>";
-		};
-		DAC206B41F9DEAAE00992ECF /* Reactive */ = {
-			isa = PBXGroup;
-			children = (
-				DAC206BC1F9DEB0100992ECF /* ObservableProperty.swift */,
-				DAC206BB1F9DEB0100992ECF /* ObservablePropertySubscriptionReference.swift */,
-				DAC206B71F9DEB0000992ECF /* ObservablePropertyType.swift */,
-				DAC206B91F9DEB0100992ECF /* StreamType.swift */,
-				DAC206BA1F9DEB0100992ECF /* SubscriptionReferenceBag.swift */,
-				DAC206B81F9DEB0000992ECF /* SubscriptionReferenceType.swift */,
-			);
-			path = Reactive;
 			sourceTree = "<group>";
 		};
 		DAC206B61F9DEAE300992ECF /* Utils */ = {
@@ -161,6 +154,14 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		F0FEC1EEFB10E2C1EAFE639F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5E249AEC2D0858A72F66FA /* Pods_RxReSwiftTrans.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAC206A81F9DE72F00992ECF /* Build configuration list for PBXNativeTarget "RxReSwiftTrans" */;
 			buildPhases = (
+				D077F55AD9E1F43F35D556AB /* [CP] Check Pods Manifest.lock */,
 				DAC206871F9DE72F00992ECF /* Sources */,
 				DAC206881F9DE72F00992ECF /* Frameworks */,
 				DAC206891F9DE72F00992ECF /* Resources */,
+				8D55A08CE0BF5F05073173E7 /* [CP] Embed Pods Frameworks */,
+				F0C62436BDCDC957B4B43AEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,24 +263,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D55A08CE0BF5F05073173E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxReSwiftTrans/Pods-RxReSwiftTrans-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxReSwiftTrans/Pods-RxReSwiftTrans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D077F55AD9E1F43F35D556AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxReSwiftTrans-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C62436BDCDC957B4B43AEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxReSwiftTrans/Pods-RxReSwiftTrans-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DAC206871F9DE72F00992ECF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DAC206BE1F9DEB1100992ECF /* Coding.swift in Sources */,
-				DAC206BF1F9DEB1900992ECF /* ObservableProperty.swift in Sources */,
 				DAC206C71F9DEB1D00992ECF /* Reducer.swift in Sources */,
 				DAC206C61F9DEB1D00992ECF /* Middleware.swift in Sources */,
 				DAC206911F9DE72F00992ECF /* ViewController.swift in Sources */,
+				85FE47401F9E9A7900D373D3 /* State.swift in Sources */,
 				DAC206C51F9DEB1D00992ECF /* Action.swift in Sources */,
-				DAC206C21F9DEB1900992ECF /* StreamType.swift in Sources */,
 				DAC206C81F9DEB1D00992ECF /* Store.swift in Sources */,
-				DAC206C41F9DEB1900992ECF /* SubscriptionReferenceType.swift in Sources */,
 				DAC2068F1F9DE72F00992ECF /* AppDelegate.swift in Sources */,
-				DAC206C01F9DEB1900992ECF /* ObservablePropertySubscriptionReference.swift in Sources */,
-				DAC206C11F9DEB1900992ECF /* ObservablePropertyType.swift in Sources */,
-				DAC206C31F9DEB1900992ECF /* SubscriptionReferenceBag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +496,7 @@
 		};
 		DAC206A91F9DE72F00992ECF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4DCD9E852FF5AA05EC9193 /* Pods-RxReSwiftTrans.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +512,7 @@
 		};
 		DAC206AA1F9DE72F00992ECF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BE26E8EA9273239986B969 /* Pods-RxReSwiftTrans.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

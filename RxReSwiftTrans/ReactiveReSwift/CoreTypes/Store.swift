@@ -7,16 +7,16 @@
 //
 
 import Foundation
+import RxSwift
 
-open class Store<ObservableProperty: ObservablePropertyType> {
+open class Store<ObservableProperty: Variable<StateType>> {
 
-    public typealias StoreMiddleware = Middleware<ObservableProperty.ValueType>
-    public typealias StoreReducer = Reducer<ObservableProperty.ValueType>
+    public typealias StoreMiddleware = Middleware<StateType>
+    public typealias StoreReducer = Reducer<StateType>
 
-    open private(set) var observable: ObservableProperty
+    private(set) var observable: ObservableProperty
     private let middleware: StoreMiddleware
     private let reducer: StoreReducer
-    private let disposeBag = SubscriptionReferenceBag()
 
     public required init(reducer: @escaping StoreReducer, observable: ObservableProperty, middleware: StoreMiddleware = Middleware()) {
         self.reducer = reducer
@@ -35,9 +35,4 @@ open class Store<ObservableProperty: ObservablePropertyType> {
         }
     }
 
-    public func dispatch<S: StreamType>(_ stream: S) where S.ValueType: Action {
-        disposeBag += stream.subscribe { [unowned self] action in
-            self.dispatch(action)
-        }
-    }
 }
