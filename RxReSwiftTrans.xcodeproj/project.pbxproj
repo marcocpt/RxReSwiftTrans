@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC2068F1F9DE72F00992ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2068E1F9DE72F00992ECF /* AppDelegate.swift */; };
+		DAC206911F9DE72F00992ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206901F9DE72F00992ECF /* ViewController.swift */; };
+		DAC206941F9DE72F00992ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC206921F9DE72F00992ECF /* Main.storyboard */; };
+		DAC206961F9DE72F00992ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC206951F9DE72F00992ECF /* Assets.xcassets */; };
+		DAC206991F9DE72F00992ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC206971F9DE72F00992ECF /* LaunchScreen.storyboard */; };
+		DAC206A41F9DE72F00992ECF /* RxReSwiftTransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC206A31F9DE72F00992ECF /* RxReSwiftTransTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC206A01F9DE72F00992ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC206831F9DE72F00992ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC2068A1F9DE72F00992ECF;
+			remoteInfo = RxReSwiftTrans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC2068B1F9DE72F00992ECF /* RxReSwiftTrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxReSwiftTrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC2068E1F9DE72F00992ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAC206901F9DE72F00992ECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAC206931F9DE72F00992ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC206951F9DE72F00992ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC206981F9DE72F00992ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAC2069A1F9DE72F00992ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC2069F1F9DE72F00992ECF /* RxReSwiftTransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxReSwiftTransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC206A31F9DE72F00992ECF /* RxReSwiftTransTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxReSwiftTransTests.swift; sourceTree = "<group>"; };
+		DAC206A51F9DE72F00992ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC206881F9DE72F00992ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC2069C1F9DE72F00992ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC206821F9DE72F00992ECF = {
+			isa = PBXGroup;
+			children = (
+				DAC2068D1F9DE72F00992ECF /* RxReSwiftTrans */,
+				DAC206A21F9DE72F00992ECF /* RxReSwiftTransTests */,
+				DAC2068C1F9DE72F00992ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC2068C1F9DE72F00992ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC2068B1F9DE72F00992ECF /* RxReSwiftTrans.app */,
+				DAC2069F1F9DE72F00992ECF /* RxReSwiftTransTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC2068D1F9DE72F00992ECF /* RxReSwiftTrans */ = {
+			isa = PBXGroup;
+			children = (
+				DAC2068E1F9DE72F00992ECF /* AppDelegate.swift */,
+				DAC206901F9DE72F00992ECF /* ViewController.swift */,
+				DAC206921F9DE72F00992ECF /* Main.storyboard */,
+				DAC206951F9DE72F00992ECF /* Assets.xcassets */,
+				DAC206971F9DE72F00992ECF /* LaunchScreen.storyboard */,
+				DAC2069A1F9DE72F00992ECF /* Info.plist */,
+			);
+			path = RxReSwiftTrans;
+			sourceTree = "<group>";
+		};
+		DAC206A21F9DE72F00992ECF /* RxReSwiftTransTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC206A31F9DE72F00992ECF /* RxReSwiftTransTests.swift */,
+				DAC206A51F9DE72F00992ECF /* Info.plist */,
+			);
+			path = RxReSwiftTransTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC2068A1F9DE72F00992ECF /* RxReSwiftTrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC206A81F9DE72F00992ECF /* Build configuration list for PBXNativeTarget "RxReSwiftTrans" */;
+			buildPhases = (
+				DAC206871F9DE72F00992ECF /* Sources */,
+				DAC206881F9DE72F00992ECF /* Frameworks */,
+				DAC206891F9DE72F00992ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxReSwiftTrans;
+			productName = RxReSwiftTrans;
+			productReference = DAC2068B1F9DE72F00992ECF /* RxReSwiftTrans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC2069E1F9DE72F00992ECF /* RxReSwiftTransTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC206AB1F9DE72F00992ECF /* Build configuration list for PBXNativeTarget "RxReSwiftTransTests" */;
+			buildPhases = (
+				DAC2069B1F9DE72F00992ECF /* Sources */,
+				DAC2069C1F9DE72F00992ECF /* Frameworks */,
+				DAC2069D1F9DE72F00992ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC206A11F9DE72F00992ECF /* PBXTargetDependency */,
+			);
+			name = RxReSwiftTransTests;
+			productName = RxReSwiftTransTests;
+			productReference = DAC2069F1F9DE72F00992ECF /* RxReSwiftTransTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC206831F9DE72F00992ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = dhh;
+				TargetAttributes = {
+					DAC2068A1F9DE72F00992ECF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					DAC2069E1F9DE72F00992ECF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAC2068A1F9DE72F00992ECF;
+					};
+				};
+			};
+			buildConfigurationList = DAC206861F9DE72F00992ECF /* Build configuration list for PBXProject "RxReSwiftTrans" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC206821F9DE72F00992ECF;
+			productRefGroup = DAC2068C1F9DE72F00992ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC2068A1F9DE72F00992ECF /* RxReSwiftTrans */,
+				DAC2069E1F9DE72F00992ECF /* RxReSwiftTransTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC206891F9DE72F00992ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC206991F9DE72F00992ECF /* LaunchScreen.storyboard in Resources */,
+				DAC206961F9DE72F00992ECF /* Assets.xcassets in Resources */,
+				DAC206941F9DE72F00992ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC2069D1F9DE72F00992ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC206871F9DE72F00992ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC206911F9DE72F00992ECF /* ViewController.swift in Sources */,
+				DAC2068F1F9DE72F00992ECF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC2069B1F9DE72F00992ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC206A41F9DE72F00992ECF /* RxReSwiftTransTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC206A11F9DE72F00992ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC2068A1F9DE72F00992ECF /* RxReSwiftTrans */;
+			targetProxy = DAC206A01F9DE72F00992ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAC206921F9DE72F00992ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC206931F9DE72F00992ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC206971F9DE72F00992ECF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC206981F9DE72F00992ECF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC206A61F9DE72F00992ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAC206A71F9DE72F00992ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC206A91F9DE72F00992ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KCFG2TH7LM;
+				INFOPLIST_FILE = RxReSwiftTrans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhh.HAA.RxReSwiftTrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC206AA1F9DE72F00992ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KCFG2TH7LM;
+				INFOPLIST_FILE = RxReSwiftTrans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhh.HAA.RxReSwiftTrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAC206AC1F9DE72F00992ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KCFG2TH7LM;
+				INFOPLIST_FILE = RxReSwiftTransTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhh.HAA.RxReSwiftTransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxReSwiftTrans.app/RxReSwiftTrans";
+			};
+			name = Debug;
+		};
+		DAC206AD1F9DE72F00992ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KCFG2TH7LM;
+				INFOPLIST_FILE = RxReSwiftTransTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhh.HAA.RxReSwiftTransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxReSwiftTrans.app/RxReSwiftTrans";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC206861F9DE72F00992ECF /* Build configuration list for PBXProject "RxReSwiftTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC206A61F9DE72F00992ECF /* Debug */,
+				DAC206A71F9DE72F00992ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC206A81F9DE72F00992ECF /* Build configuration list for PBXNativeTarget "RxReSwiftTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC206A91F9DE72F00992ECF /* Debug */,
+				DAC206AA1F9DE72F00992ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC206AB1F9DE72F00992ECF /* Build configuration list for PBXNativeTarget "RxReSwiftTransTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC206AC1F9DE72F00992ECF /* Debug */,
+				DAC206AD1F9DE72F00992ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC206831F9DE72F00992ECF /* Project object */;
+}
